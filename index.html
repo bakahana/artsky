@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>artture</title>
+	
+	
+	
+<!--	đây là css main-->
+	<link rel="stylesheet" href="css/main.css">
+<!--hết css main-->
+	
+<!--	đây là menu-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<!--	hết menu-->
+
+<!--lightbox-->
+	 <link rel="stylesheet" href="css/lightbox.min.css">
+<!--	het lightbox-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/hover-min.css">
+</head>
+
+<body>
+	<div class="container">
+	
+		
+		
+		
+		
+		
+		
+		
+		
+<!--		day la slide menu-->
+		<header>
+		<div class="header">
+			<a href="#menu" id="toggle"><span></span></a>
+
+			<div id="menu">
+			  <ul>
+				<li><a href="#home">Trang chủ</a></li>
+				<li><a href="#about">Theo dõi</a></li>
+				<li><a href="#posts">Top Art</a></li>
+				<li><a href="#contact">Liên hệ</a></li>
+				<li><a href="#q&a">Câu hỏi</a></li>
+			  </ul>
+			</div>
+		</div>
+	</header>
+	
+<!--	het slide menu-->
+	
+
+		
+		
+		
+<!--		section trang chủ-->
+	<section id="home">
+	
+		<div class="typewriter">
+  			<h1>XIN CHÀO! Mình là Ngọ..........................</h1>
+			
+		</div>
+		<!--	button back to top-->
+		
+	<div class="btn" id="btn">
+		<a class="pagetop01" href="#home">↺</a>
+		
+	</div>
+<!--		hết button back to top-->
+	
+		
+		</section>
+<!--	hết section trang chủ-->
+	
+	
+<section id="about">
+		<main>Ý TƯỞNG !</main>
+		
+  <div class="text" >
+			<h3>Những ý tưởng trong đầu luôn gặp khó khăn khi đưa chúng vào bản thiết kế? Đừng ngại và hãy đăng kí khóa học ngay để giải quyết khó khăn!</h3>
+			<h4>cầm bút lên và đưa mọi ý tưởng ra bên ngoài thôi!.</h4>
+	</div>
+	
+	<div class="footer-social-icons">
+    
+    <div class="social-icons">
+        <a href="" class="social-icon"> <i class="fa fa-facebook "></i></a>
+        <a href="" class="social-icon"> <i class="fa fa-twitter"></i></a>
+        <a href="" class="social-icon"> <i class="fa fa-rss"></i></a>
+        <a href="" class="social-icon"> <i class="fa fa-youtube"></i></a>
+        <a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+        <a href="" class="social-icon"> <i class="fa fa-github"></i></a>
+    </div>
+</div>
+	<div class="avatar">
+	<img src="images/logo.png" width="100%">
+	</div>
+</section>
+	
+	
+		
+		
+			<section id="posts">
+			<div class="contain">
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/amir-zand-artstation.jpg" data-lightbox="image-1" data-title="Hình 1"><img src="images/amir-zand-artstation.jpg" style="width:60%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/andrei-romashikhin-cartimg-20171229-1439571.jpg" data-lightbox="image-2" data-title="Hình 2"><img src="images/andrei-romashikhin-cartimg-20171229-1439571.jpg" style="width:65%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/bruno-hamzagic-2016-10-20.jpg" data-lightbox="image-3" data-title="Hình 3"><img src="images/bruno-hamzagic-2016-10-20.jpg" style="width:50%"></a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/kael-ngu-01.jpg" data-lightbox="image-4" data-title="Hình 4"><img src="images/kael-ngu-01.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/lente-scura-10995683-868841143159580-2915886694985379857-n.jpg" data-lightbox="image-5" data-title="Hình 5"><img src="images/lente-scura-10995683-868841143159580-2915886694985379857-n.jpg" style="width:100%"></a>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext"></div>
+    <a href="images/naranbaatar-ganbold-metal-armor-cover-2.jpg" data-lightbox="image-6" data-title="Hình 6"><img src="images/naranbaatar-ganbold-metal-armor-cover-2.jpg" style="width:100%"></a>
+  </div>
+    
+  
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/amir-zand-artstation.jpg" style="width:50%" onclick="currentSlide(1)" alt="Hình 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/andrei-romashikhin-cartimg-20171229-1439571.jpg" style="width:60%" onclick="currentSlide(2)" alt="Hình 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/bruno-hamzagic-2016-10-20.jpg" style="width:50%" onclick="currentSlide(3)" alt="Hình 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/kael-ngu-01.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hình 4">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/lente-scura-10995683-868841143159580-2915886694985379857-n.jpg" style="width:82%" onclick="currentSlide(5)" alt="Hình 5">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/naranbaatar-ganbold-metal-armor-cover-2.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hình 6">
+    </div>
+  </div>
+</div>
+		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+<div class="noidung">
+	<div class="noidung1">
+	   <div class="noidung1a hvr-grow">
+		   	   <div class="lable">Digital</div>
+		<img src="images/376_max.jpg" width="110%"> 
+		</div>
+       <div class="noidung1b"> 
+		<div class="noidung1bb hvr-grow">
+				   <div class="lable">Sơn dầu</div>
+		   <img src="images/andrew-theophilopoulos-link.jpg" width="110%" >
+		   </div>
+		 <div class="noidung1bbb hvr-grow">
+			 	   <div class="lable">Kĩ thuật số</div>
+		   <img src="images/juan-pablo-roldan-soldeirs2.jpg" width="140%">
+		   </div>
+		</div>
+	</div>
+	<div class="noidung2 hvr-grow">
+	<img src="images/anato-finnstark-web-petit.jpg" width="110%">
+	   <div class="lable">Tìm hiểu thêm</div>
+	</div>
+		
+		
+		
+		</div>
+		
+		
+		
+		
+		
+			<section id="contact">
+		<h7>THÔNG TIN LIÊN HỆ</h7>
+
+	<div class="table">
+	  <form action="/action_page.php">
+		<label for="fname">Họ</label>
+		<input type="text" id="fname" name="firstname" placeholder="họ..">
+
+		<label for="lname">Tên</label>
+		<input type="text" id="lname" name="lastname" placeholder="tên..">
+
+		  <label for="email">Email</label>
+		<input type="text" id="email" name="email" placeholder=" email...">
+		  
+		   <label for="number">Số Điện Thoại</label>
+		<input type="text" id="number" name="number" placeholder="số điện thoại...">
+
+		<label for="notice">Phản Hồi</label>
+		<textarea id="notice" name="notice" placeholder="câu trả lời.." style="height:200px"></textarea>
+
+		<input type="submit" value="Đăng nhập">
+	  </form>
+	</div>
+		</section>
+	
+		
+		
+		
+		
+		
+		
+			<section id="q&a">
+		<div class="faq">
+  <h2>Những điều cần lưu ý*</h2>
+  <div class="accordion">
+    <div class="accordion-item">
+      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Làm sao để tìm ý tưởng ?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Hãy lên các trang nổi tiếng về mảng nghệ thuật như Pinterest,artstration,Behance,...</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Tại sao lại có nhiều trường phái ?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Mỗi trường phái đều có nét riêng, vì vậy các trường phái độc lạ được ra đời nhằm phục vụ tính thẩm mĩ của con người.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Học đồ họa cần tải những ứng dụng nào?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Photoshop,ilustratior,indesign,maya,dreamwever,...rất nhiều ứng dụng mà bạn còn chưa biết</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Chúng ta cần những gì khi học vẽ cơ bản?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Đều tối thiểu nhất với mỗi người yêu nghệ thuật thì chỉ cần một cây bút chì cùng một cục tẩy là đủ, chúc may mắn!.</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Vẽ có những mảng nào và chúng có khó không, tại sao?</span><span class="icon" aria-hidden="true"></span></button>
+      <div class="accordion-content">
+        <p>Có rất nhiều thể loại để ứng dụng trong nhiều lĩnh vực khác nhau như: nhà cửa(kiến trúc),mĩ thuật trang trí nội thất,ngoại thất,3D,...</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+				
+						
+				<div class="row1">
+  <div class="column1">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h11>1M+</h11>
+      <p>Thành viên</p>
+    </div>
+  </div>
+
+  <div class="column1">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h11>319</h11>
+      <p>Dự án</p>
+    </div>
+  </div>
+  
+  <div class="column1">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h11>89%</h11>
+      <p> Chất lượng</p>
+    </div>
+  </div>
+  
+  
+</div>		
+		</section>
+		
+		
+
+
+		
+		
+	
+	</div>
+	
+	
+	
+<!--	đây là menu-->
+	<script  src="js/menu.js"></script>
+<!--	hết menu-->
+	
+	
+	
+<!--gallery-->
+	
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<!--	het gallery-->
+	
+	
+	
+	
+<!--	light box-->
+	 <script src="js/lightbox-plus-jquery.min.js"></script>
+<!--	het lightbox-->
+	
+	
+	
+<!--	faq-->
+	<script  src="js/faq.js"></script>
+<!--	het faq-->
+</body>
+</html>
